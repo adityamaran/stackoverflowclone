@@ -1,0 +1,57 @@
+.askquestion{
+    /* padding-top: 10px; */
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(255, 255, 255, 0.759);
+text-align: left;
+/* height: 90%; */
+/* width: 590px; */
+
+
+}
+.askquestion1 h2{
+font-weight: 400;
+}
+.askquestion1 h4{
+    /* margin-top: 10px; */
+    margin-bottom: 0px;
+    /* margin-top: -; */
+}
+.askquestion1{
+    /* padding-top: -20px; */
+    padding: 2px 15px;
+    border: solid silver 1px;
+    /* height: 80vh; */
+    height: fit-content;
+    width: 70%;
+    /* height: 90vh; */
+    background-color:white;
+    /* box-shadow: 0 0 8px rgb(43, 43, 43); */
+}
+
+
+.reactquill{
+   height: 15vh;
+   /* text-align: middle; */
+   margin-bottom: 5px;
+}
+.askquestion button{
+    margin: 10px 0;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(48, 169, 255);
+}
+.askquestion1 input{ width: 96%;
+    padding-left: 5px;
+    /* width: 100vw; */
+    width: 98%;
+    margin-top: 3px;
+    height: 25px;}
+
+.tagscl{
+    margin-top: 65px;
+}
+

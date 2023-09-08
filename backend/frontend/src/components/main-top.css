@@ -1,0 +1,61 @@
+
+.maintop{
+    margin: 0px 25px;
+    border-bottom: solid rgb(96, 96, 96) 1.5px ;
+
+}
+.maintop h5{
+    cursor: pointer;
+}
+
+.maintop1b button:hover{
+    border: solid rgb(0, 119, 255) 2px;
+    background-color: white;
+    color: rgb(0, 119, 255);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 8px black;
+}
+.maintop1b button{
+    padding: 10px 20px;
+    color: white;
+    font-size:16px;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1.4px;
+    background-color: rgb(0, 119, 255);
+}
+.maintop1{
+    margin: 15px 0px;
+
+    align-items: center;
+    
+    display: flex;
+    justify-content: space-between;
+    /* border: solid red 2px; */
+}
+
+.maintop2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid black 2px; */
+}
+.maintop2b{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.maintop2aa{
+    display: flex;
+}
+.maintop2aa h5{
+    padding: 8px 12px;
+    border: solid rgb(100, 100, 100) 1px;
+    background-color: rgba(192, 192, 192, 0.655);
+}
+
+.maintop2ab h5{
+    padding: 8px 12px;
+    border: solid rgb(0, 162, 255) 2px;
+    background-color:rgba(0, 135, 253, 0.53)
+}

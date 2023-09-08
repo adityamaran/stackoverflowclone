@@ -1,0 +1,13 @@
+.indexx{
+    display: grid;
+    /* border: solid red 2px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+}
+.indexx-sidebar{
+    display: grid;
+}
+.indexx-main{
+    border: solid black 2px;
+}

@@ -1,0 +1,96 @@
+.loginformcontainer{
+    display: flex;
+    justify-content: center;
+align-items: center;
+/* border: solid red 2px; */
+height: 100vh;
+/* Created with https://www.css-gradient.com */
+background-color: rgb(215, 218, 250);
+/* background: #FFFFFF;
+background: linear-gradient(to left, #FFFFFF 0%, #14FFEF 100%); */
+
+}
+.authlink{
+    cursor: pointer;
+    border: none;
+    color: blue;
+    background-color: white;
+}
+.login-middle-box h2{
+    color: #000000;
+}
+.login-middle-box form input{
+    width:  85%;
+    height: 35px;
+    border-radius: none;
+    margin-bottom: 25px;
+    font-size: larger;
+    font-weight: lighter;
+    margin-top: 5px;
+    color: rgb(255, 77, 0);
+    padding: 0 5px;
+    
+ 
+
+}
+.login-middle-box form button:hover{
+    background-color: white;
+    color: rgb(255, 77, 0);
+    cursor: pointer;
+    border: solid 2px rgb(255, 77, 0);
+
+
+}
+.login-middle-box form button{
+    width:  85%;
+    height: 35px;
+    border-radius: none;
+    font-weight: bolder;
+    background-color:rgb(255, 77, 0);
+    border: none;
+    font-size: large;
+    color: white;
+    transition: 0.3s ease-in-out;
+    
+ 
+
+}
+.login-middle-box form {
+    text-align: left;
+    padding-left: 15%;
+    justify-content: center;
+    /* border: solid red 2px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.login-middle-box form label{
+    /* margin-bottom: 20px; */
+    /* font-weight: bold; */
+    font-size: large;
+    /* padding-bottom: 25px; */
+}
+.login-middle-box{
+    box-shadow: 8px 12px 33px rgb(0, 0, 0);
+    width: 35vw;
+    /* height: 45vh; */
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 18px;
+    border-radius: 2px;
+}
+
+.login-middle-box  p span{
+    color: blue;
+    text-decoration: underline;
+}
+
+@media (max-width:700px) {
+
+    .login-middle-box{
+        width: 85vw;
+    }
+
+    
+}

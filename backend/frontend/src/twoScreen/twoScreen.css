@@ -1,0 +1,16 @@
+.twoScreen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoScreenSlider{
+
+
+    width: 15%;
+}
+
+.twoScreenother{
+    width: 82%;
+    border-left: solid silver 1px;
+    
+}
